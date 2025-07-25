@@ -20,8 +20,13 @@
     box-shadow: 0 6px 24px rgba(79,140,255,0.12);
 }
 .service-icon {
-    width: 56px;
-    height: 56px;
+    font-size: 3.5rem; /* Larger icon size */
+    width: 72px;       /* A slightly larger container for alignment */
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4f8cff;    /* Match the icon color with the heading */
     margin-bottom: 1.2rem;
 }
 .service h3 {
